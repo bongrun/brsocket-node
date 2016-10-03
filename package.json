@@ -1,0 +1,38 @@
+{
+  "name": "brsocket-node",
+  "version": "0.0.1",
+  "description": "BRSocket-Node",
+  "keywords": [
+    "bong.run",
+    "bong",
+    "socket",
+    "node",
+    "websocket"
+  ],
+  "author": "Pasechnik Vladislav <jump.e.r@yandex.ru>",
+  "homepage": "https://github.com/bongrun/brsocket-node",
+  "license": "Apache 2.0",
+  "scripts": {
+    "start": "pm2 start pm2-socket.json",
+    "restart": "pm2 restart pm2-socket.json",
+    "stop": "pm2 stop pm2-socket.json"
+  },
+  "dependencies": {
+    "amqp": "^0.2.6",
+    "json-configurator": "^1.0.1",
+    "jsonwebtoken": "^7.1.7",
+    "lodash": "^4.15.0",
+    "url-params-helper": "^0.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bongrun/brsocket-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bongrun/brsocket-node/issues"
+  },
+  "engines": {
+    "node": ">= 4.2.1",
+    "npm": ">= 3"
+  }
+}

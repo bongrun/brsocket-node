@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "BRSocket",
+      "script": "src/main.js",
+      "merge_logs": true,
+      "watch": false,
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
